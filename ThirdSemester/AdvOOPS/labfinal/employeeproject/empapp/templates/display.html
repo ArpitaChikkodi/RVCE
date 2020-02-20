@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DISPLAY</title>
+</head>
+<body>
+<h2 align="center">Employee details</h2>
+<table border="1" align="center">
+    <tr>
+        <td>Employee Name</td>
+        <td>Employee ID</td>
+        <td>Address</td>
+    </tr>
+    {% for s in shelf %}
+    <tr>
+        <td>{{ s.empid }}</td>
+        <td>{{ s.name }}</td>
+        <td>{{ s.address }}</td>
+    </tr>
+
+    {% endfor %}
+
+</table>
+
+</body>
+</html>
