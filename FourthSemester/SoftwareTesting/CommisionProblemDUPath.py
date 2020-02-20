@@ -9,18 +9,18 @@ def testCommission():
         barrels = int(input("Enter the total number of barrels : "))
         if locks < 1 or locks > 70 and stocks < 1 or stocks > 80 and barrels < 1 or barrels > 90:
             count = 1
-            print("Invalid Input")
+            print("Invalid Input!")
             exit()
         else:
             totalLock += locks
             totalStocks += stocks
             totalBarrels += barrels
             locks = int(
-                input("Enter the number of locks and to exit the loop enter -1 for locks :- "))
+                input("Enter the number of locks or to exit the loop enter -1 : "))
 
-    print("total locks :- ", totalLock)
-    print("total stocks :- ", totalStocks)
-    print("total barrel :- ", totalBarrels)
+    print("total locks : ", totalLock)
+    print("total stocks : ", totalStocks)
+    print("total barrel : ", totalBarrels)
     lsales = (totalLock * lockPrice)
     ssales = (totalStocks * stockPrice)
     bsales = (totalBarrels * barrelPrice)
@@ -35,7 +35,7 @@ def testCommission():
         commission = commission + (0.20 * (totalSales - 1800))  # totalsales above 1800
     else:
         commission = 0.10 * totalSales
-    print("Commission is : ", commission)
+    print("Commission is ", commission)
 
 
 testCommission()
