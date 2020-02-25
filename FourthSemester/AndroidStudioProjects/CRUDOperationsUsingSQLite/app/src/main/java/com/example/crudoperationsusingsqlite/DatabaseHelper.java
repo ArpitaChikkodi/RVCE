@@ -38,6 +38,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return res;
     }
 
+    public Cursor getAllData()
+    {
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor res = db.rawQuery("Select * from "+databasename,null);
+        return res;
+    }
+
     public boolean insertData(Integer id, String name, Integer year) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
@@ -45,9 +52,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put("name", name);
         contentValues.put("year", year);
 
-        db.insert(databasename, null, contentValues);
+        long res = db.insert(databasename, null, contentValues);
 
-        return true;
+        if(res==-1)
+            return false;
+        else
+            return true;
+
     }
 
     public Integer deleteData(Integer id) {
