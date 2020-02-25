@@ -39,10 +39,11 @@ def testCommission():
 
 
 testCommission()
-while True:
+'''while True:
     ch = int(input("Enter 1 to retest or 0 to exit : "))
     if ch == 1:
         testCommission()
     if ch == 0:
         print("Testing done!")
         exit()
+'''
