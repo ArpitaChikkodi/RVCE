@@ -133,11 +133,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String sid = id.getText().toString();
                 String nm = name.getText().toString();
-                String mark = year.getText().toString();
+                String syear = year.getText().toString();
                 Intent intentMail = new Intent(Intent.ACTION_SEND);
                 intentMail.putExtra(Intent.EXTRA_EMAIL, new String[]{"apschikkodi@gmail.com"});
                 intentMail.putExtra(Intent.EXTRA_SUBJECT, "Sending mail from Android App");
-                intentMail.putExtra(Intent.EXTRA_TEXT,"Id : " + sid +"\nNAME : " + nm + "\nYear : " + mark);
+                intentMail.putExtra(Intent.EXTRA_TEXT,"Id : " + sid +"\nNAME : " + nm + "\nYear : " + syear);
                 intentMail.setType("message/rfc822");
 
                 startActivity(Intent.createChooser(intentMail,"Choose Mail App"));

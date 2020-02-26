@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         email.setOnClickListener(new View.OnClickListener(){
 
             @Override
-            public void onClick(View arg0) {
+            public void onClick(View arg) {
                 String to="apschikkodi14@gmail.com";
                 String subject="Sending email from Android App";
                 Integer id = Integer.parseInt(Eid.getText().toString());
