@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                         stringBuffer.append("ID : " + cursor.getString(0)+"\n");
                         stringBuffer.append("NAME : " + cursor.getString(1)+"\n");
                         stringBuffer.append("YEAR : " + cursor.getString(2)+"\n\n");
-//                        stringBuffer.append("---------------------------------------");
+
                     }
                     showMessage("DATA : ",stringBuffer.toString());
                 }

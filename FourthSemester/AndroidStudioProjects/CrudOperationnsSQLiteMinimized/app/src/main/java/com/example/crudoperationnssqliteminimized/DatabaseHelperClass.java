@@ -4,6 +4,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import androidx.annotation.Nullable;
 
@@ -56,7 +57,7 @@ public class DatabaseHelperClass extends SQLiteOpenHelper {
         contentValues.put(AUTO_NAME,name);
         contentValues.put(AUTO_YEAR,year);
         sqLiteDatabase.update(TABLE_NAME,contentValues, " id = ? ", new String[] { id });
-        return true;
+            return true;
     }
 
     public Integer deleteDataThroughId(String id){
