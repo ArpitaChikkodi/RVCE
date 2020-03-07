@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.812" />
-
+<!--
     <fragment
         android:id="@+id/fragmentone"
         android:name="com.example.fragmentsexample.FragmentOne"
@@ -42,4 +42,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.57" />
+
+        -->
 </androidx.constraintlayout.widget.ConstraintLayout>

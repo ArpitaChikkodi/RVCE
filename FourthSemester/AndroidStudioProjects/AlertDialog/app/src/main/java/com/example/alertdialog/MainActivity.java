@@ -2,8 +2,8 @@ package com.example.alertdialog;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-//import android.app.AlertDialog;
-import androidx.appcompat.app.AlertDialog; //-->not compatible for this api
+import android.app.AlertDialog;
+//import androidx.appcompat.app.AlertDialog; //-->not compatible for this api
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
@@ -25,12 +25,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //select android for api less than Marshmellow otherwise select androidx for AlertDialog
-                //AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
-                AlertDialog.Builder alertDialog = new AlertDialog.Builder(MainActivity.this);
+                AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+             //   AlertDialog.Builder alertDialog = new AlertDialog.Builder(MainActivity.this);
                 alertDialog.setTitle("Alert Dialog");
                 alertDialog.setMessage("Custom alert dialog window");
                 alertDialog.setIcon(R.drawable.image);
-             /*   alertDialog.setButton("Ok", new DialogInterface.OnClickListener() {
+               alertDialog.setButton("Ok", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Toast.makeText(MainActivity.this,"Clicked on ok",'7').show();
@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Toast.makeText(MainActivity.this, "Clicked on cancel", Toast.LENGTH_SHORT).show();
                     }
-                });*/
+                });
 
-                alertDialog.setPositiveButton("ok", new DialogInterface.OnClickListener() {
+              /*  alertDialog.setPositiveButton("ok", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Toast.makeText(MainActivity.this,"Clicked on ok",'7').show();
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this,"Clicked on cancel",'7').show();
                     }
                 });
-
+*/
                 alertDialog.show();
             }
         });
