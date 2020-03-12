@@ -56,8 +56,12 @@ public class DatabaseHelperClass extends SQLiteOpenHelper {
         contentValues.put(AUTO_ID,id);
         contentValues.put(AUTO_NAME,name);
         contentValues.put(AUTO_YEAR,year);
-        sqLiteDatabase.update(TABLE_NAME,contentValues, " id = ? ", new String[] { id });
-            return true;
+       int c =  sqLiteDatabase.update(TABLE_NAME,contentValues, " id = ? ", new String[] { id });
+       //It returns number of rows updated
+       if(c>0)
+        return true;
+       else
+           return false;
     }
 
     public Integer deleteDataThroughId(String id){
