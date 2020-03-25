@@ -74,7 +74,6 @@ class LoginClass(unittest.TestCase):
         alertJS.accept()
         timer1 = time.strftime("%Y%m%d = %H%M%S")
         picture = "Images"
-
         self.driver.save_screenshot("../screenShots/" + picture + timer1 + ".png")
         time.sleep(5)
 
