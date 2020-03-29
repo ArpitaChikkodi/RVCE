@@ -85,7 +85,7 @@ if __name__ == '__main__':
 driver = webdriver.Chrome("../drivers/x32/chromedriver.exe")
 
 path = student_page
-driver.get(path)  # load web page
+driver.get(path) 
 time.sleep(4)
 driver.maximize_window()
 calculate_result(driver, mdict)
