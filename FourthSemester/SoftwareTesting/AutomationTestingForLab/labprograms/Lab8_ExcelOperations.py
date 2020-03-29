@@ -85,7 +85,7 @@ if __name__ == '__main__':
 driver = webdriver.Chrome("../drivers/x32/chromedriver.exe")
 
 path = student_page
-driver.get(path) 
+driver.get(path)
 time.sleep(4)
 driver.maximize_window()
 calculate_result(driver, mdict)
@@ -93,5 +93,5 @@ calculate_result(driver, mdict)
 calculation_results = get_total_percentage_result(driver)
 
 append_to_excel(calculation_results)
-print("Closing the browser")
+print("Browser is closed!")
 driver.quit()
