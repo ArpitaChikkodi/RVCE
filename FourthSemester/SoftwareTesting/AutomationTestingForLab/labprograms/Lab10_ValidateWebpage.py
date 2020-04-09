@@ -82,4 +82,4 @@ if __name__ == "__main__":
     time.sleep(5)
     print("Copied all the data from one web page to other!")
     driver_dest.quit()
-    driver_source.quit()
+    #driver_source.quit()
