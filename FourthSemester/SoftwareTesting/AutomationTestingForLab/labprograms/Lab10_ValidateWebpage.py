@@ -81,5 +81,5 @@ if __name__ == "__main__":
                 print("Invalid data for column name:%s ,with value:%s" % (each_class, value))
     time.sleep(5)
     print("Copied all the data from one web page to other!")
-    driver_dest.quit()
+    #driver_dest.quit()
     #driver_source.quit()

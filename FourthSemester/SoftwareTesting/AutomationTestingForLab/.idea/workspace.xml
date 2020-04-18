@@ -168,6 +168,7 @@
       <workItem from="1586130061052" duration="235000" />
       <workItem from="1586390769416" duration="3679000" />
       <workItem from="1586420636066" duration="51000" />
+      <workItem from="1586998037336" duration="460000" />
     </task>
     <servers />
   </component>
@@ -189,7 +190,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AutomationTestingForLab$pytest_in_Lab9_TestSuiteProgram_py.coverage" NAME="pytest in Lab9_TestSuiteProgram.py Coverage Results" MODIFIED="1585880780067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labprograms" />
-    <SUITE FILE_PATH="coverage/AutomationTestingForLab$Lab10_ValidateWebpage.coverage" NAME="Lab10_ValidateWebpage Coverage Results" MODIFIED="1586394481250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labprograms" />
+    <SUITE FILE_PATH="coverage/AutomationTestingForLab$Lab10_ValidateWebpage.coverage" NAME="Lab10_ValidateWebpage Coverage Results" MODIFIED="1586998127482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labprograms" />
     <SUITE FILE_PATH="coverage/AutomationTestingForLab$lab6_LoginPageUnitTest.coverage" NAME="lab6_LoginPageUnitTest Coverage Results" MODIFIED="1584839872373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labprograms" />
     <SUITE FILE_PATH="coverage/AutomationTestingForLab$pytest_in_lab6_LoginPageUnitTest_py.coverage" NAME="pytest in lab6_LoginPageUnitTest.py Coverage Results" MODIFIED="1585903746289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labprograms" />
     <SUITE FILE_PATH="coverage/AutomationTestingForLab$pytest_for_Lab7_CountOfWebElements_CountWidget_test_count3.coverage" NAME="pytest for Lab7_CountOfWebElements.CountWidget.test_count3 Coverage Results" MODIFIED="1584844602455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labprograms" />
