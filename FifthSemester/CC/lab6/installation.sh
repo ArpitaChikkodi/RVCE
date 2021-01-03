@@ -24,3 +24,7 @@ sudo systemctl restart apache2
 
 # installing mysql-server 
 sudo apt-get install mysql-server -y
+
+#connecting
+>mysql -h rds-endpoint -u db-name -p
+mysql -h mysqldb2020.cvjhqke4nmzi.ap-south-1.rds.amazonaws.com -u mysqldb2020 -p
